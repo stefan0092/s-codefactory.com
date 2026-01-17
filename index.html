@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>S-Code Factory – Software, Apps, Automatisierung</title>
+  <meta name="description" content="S-Code Factory entwickelt moderne Apps, Tools und Automatisierungen. Fokus: Performance, UX, Business-Value." />
+  <meta name="theme-color" content="#0b0f19" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <span class="brand-mark">S</span>
+        <span class="brand-text">S-Code Factory</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#services">Leistungen</a>
+        <a href="#projects">Projekte</a>
+        <a href="#about">Über</a>
+        <a class="btn btn-sm" href="#contact">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="badge">Software Engineering • Apps • Automatisierung</p>
+          <h1>Ich baue Software, die sauber läuft und Geld spart.</h1>
+          <p class="lead">
+            S-Code Factory entwickelt moderne Web- und Mobile-Lösungen: von MVP bis Production.
+            Fokus auf Performance, UX und klare Prozesse.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn" href="#contact">Projekt anfragen</a>
+            <a class="btn btn-ghost" href="#services">Leistungen ansehen</a>
+          </div>
+
+          <div class="trust">
+            <div class="trust-item">
+              <div class="trust-kpi" id="kpi-ship">0</div>
+              <div class="trust-label">Deliveries</div>
+            </div>
+            <div class="trust-item">
+              <div class="trust-kpi" id="kpi-speed">0%</div>
+              <div class="trust-label">Performance-Fokus</div>
+            </div>
+            <div class="trust-item">
+              <div class="trust-kpi" id="kpi-ux">0</div>
+              <div class="trust-label">UX Iterationen</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card hero-card">
+          <div class="card-top">
+            <div class="chip">Live Preview</div>
+            <div class="pulse" aria-hidden="true"></div>
+          </div>
+
+          <div class="codebox">
+            <div class="code-line"><span class="k">product</span>: <span class="v">Manuvo</span></div>
+            <div class="code-line"><span class="k">stack</span>: <span class="v">.NET MAUI • SQLite • Syncfusion</span></div>
+            <div class="code-line"><span class="k">focus</span>: <span class="v">PDF • Workflows • Business Logic</span></div>
+            <div class="code-line"><span class="k">status</span>: <span class="v">shipping</span></div>
+          </div>
+
+          <div class="card-bottom">
+            <div class="mini">
+              <div class="mini-dot"></div>
+              <div>Saubere Releases, stabile Builds, klare Struktur.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-bg" aria-hidden="true"></div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Leistungen</h2>
+          <p>Von Idee bis Launch – mit Fokus auf Robustheit, Wartbarkeit und Geschwindigkeit.</p>
+        </div>
+
+        <div class="grid cards">
+          <article class="card">
+            <h3>App Development</h3>
+            <p>.NET MAUI, Android/iOS, Desktop – inklusive Offline-First, SQLite, Syncfusion PDF.</p>
+            <ul class="list">
+              <li>Architektur (MVVM, DI)</li>
+              <li>PDF-Systeme & Templates</li>
+              <li>Release-Ready Builds</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Web & Landingpages</h3>
+            <p>Blitzschnelle Seiten, SEO-Basics, saubere Analytics-Integration.</p>
+            <ul class="list">
+              <li>Vercel Deployment</li>
+              <li>Performance optimiert</li>
+              <li>Content strukturieren</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Automatisierung</h3>
+            <p>APIs, Bots, Backends, Datenpipelines – robuste Systeme statt Bastellösungen.</p>
+            <ul class="list">
+              <li>Async/IO (Python, C#)</li>
+              <li>DB-Design & Logging</li>
+              <li>Monitoring-Ansätze</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projekte</h2>
+          <p>Ein kleiner Ausschnitt – sauber umgesetzt, produktionsnah gedacht.</p>
+        </div>
+
+        <div class="grid cards">
+          <article class="card">
+            <h3>Manuvo</h3>
+            <p>Business-App für Handwerk: Zeiterfassung, Kunden, Material, PDF-Rechnungen & Profile.</p>
+            <div class="tags">
+              <span class="tag">.NET MAUI</span><span class="tag">SQLite</span><span class="tag">PDF</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Trading & Analytics</h3>
+            <p>Automatisierte Marktanalyse, Signalerkennung, robuste Order-Flows und Visualisierung.</p>
+            <div class="tags">
+              <span class="tag">Python</span><span class="tag">Async</span><span class="tag">Dash</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Brand & Assets</h3>
+            <p>Logos, UI-Kits und konsistentes Design-System – passend zur Produktstrategie.</p>
+            <div class="tags">
+              <span class="tag">Branding</span><span class="tag">UI/UX</span><span class="tag">Design Tokens</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container about">
+        <div>
+          <h2>Über S-Code Factory</h2>
+          <p>
+            Ich entwickle Software mit Fokus auf Business-Value: klare Anforderungen, saubere Architektur,
+            zuverlässige Releases. Kein Overengineering, aber auch keine Quick-Fixes, die später teuer werden.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Arbeitsweise</h3>
+          <ul class="list">
+            <li>Kickoff → Scope & Ziele</li>
+            <li>MVP in Iterationen</li>
+            <li>Qualität: Tests, Review, Release-Checkliste</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Kontakt</h2>
+          <p>Schreib mir kurz, was du bauen willst. Ich antworte mit einem klaren Vorschlag.</p>
+        </div>
+
+        <div class="grid contact-grid">
+          <div class="card">
+            <h3>E-Mail</h3>
+            <p><a class="link" href="mailto:hello@s-codefactory.com">hello@s-codefactory.com</a></p>
+            <p class="muted">Optional: support@ / billing@ als Aliasse.</p>
+          </div>
+
+          <form class="card form" onsubmit="return window.scfSubmit(event)">
+            <label>
+              <span>Name</span>
+              <input required name="name" placeholder="Dein Name" />
+            </label>
+            <label>
+              <span>E-Mail</span>
+              <input required name="email" type="email" placeholder="name@domain.com" />
+            </label>
+            <label>
+              <span>Projekt</span>
+              <textarea required name="message" rows="5" placeholder="Kurz: Was brauchst du? Ziel, Deadline, Budgetrahmen (optional)."></textarea>
+            </label>
+            <button class="btn" type="submit">Anfrage senden</button>
+            <p class="muted small" id="formStatus" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="muted">© <span id="year"></span> S-Code Factory</div>
+      <div class="footer-links">
+        <a class="link" href="mailto:hello@s-codefactory.com">E-Mail</a>
+        <a class="link" href="#" onclick="return false;">Impressum</a>
+        <a class="link" href="#" onclick="return false;">Datenschutz</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
